@@ -1,19 +1,68 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilo_conteudo.css">
-    <title>Aliston Santos</title>
+    <link rel="stylesheet" href="./estilos/carrosel_educacao.css" />
+    <link rel="stylesheet" href="./estilos/menu_superior.css" />
+    <title>Teste de Carrosel</title>
 </head>
 <body>
-    <h1>Educação</h1>
-    <h2>Universidade Cruzeiro do Sul</h2>
-    <h3>Formação: Ciências Contábeis<br>Periodo: 01/01/2012 a 31/12/2016</h3>
-    <h2>Universidade Anhembi Morumbi</h2>
-    <h3>Formação: Ciência da Computação<br>Periodo: 01/07/2021 a 31/06/2025</h3>
-    <h2>DevMedia</h2>
-    <h3>Trilha de Programação Full Stack<br>Periodo: 24/01/2022 a 23/01/2023</h3>
+    
+  <nav id="menu-h">
+    <ul>
+      <li><a href="index.html">Sobre Mim</a></li>
+      <li><a href="carreira.html">Carreira</a></li>
+      <li><a href="projetos.html">Projetos</a></li>
+      <li><a>Educação</a></li>
+    </ul>
+</nav>    
+
+<div class="container">
+  <div class="card-carousel">
+    <div class="card" id="1">
+      <div class="image-container"></div>
+      <h3>2</h3>
+      <h4>####</h4>
+      <p>Status:</p>
+      <p>Periodo:</p>
+    </div>
+    <div class="card" id="2">
+      <div class="image-container"></div>
+      <h3>1</h3>
+      <h4>####</h4>
+      <p>Status:</p>
+      <p>Periodo:</p>
+    </div>
+    <div class="card" id="3">
+      <div class="image-container"></div>
+      <h3>Senac - Taboão da Serra</h3>
+      <h4>Técnico de Informática</h4>
+      <p>Status: Cursando</p>
+      <p>Periodo: 08/ 2023 à 12/ 2024</p>
+    </div>  
+    <div class="card" id="4">
+      <div class="image-container"></div>
+      <h3>Anhembi Morumbi</h3>
+      <h4>Ciência da Computação</h4>
+      <p>Status: Trancado</p>
+      <p>Periodo: 07/ 2022 à 12/ 2026</p>
+    </div>
+    <div class="card" id="5">
+      <div class="image-container"></div>
+      <h3>3</h3>
+      <h4>###</h4>
+      <p>Status:</p>
+      <p>Periodo:</p>
+    </div>
+  </div>
+  <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+</div>
+<!-- 
+<h2>Check out <a target="_blank" href="https://codepen.io/WillyW/pen/RwRrvjv">Circle Carousel</a></h2> -->
+
+<script src="./js/carrosel.js"></script>
+
+
 </body>
 </html>
