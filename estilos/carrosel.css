@@ -46,7 +46,8 @@
   
   @media screen and (max-width: 640px) {
 	.card-carousel {
-	  margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+	  margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2);
+	  --card-height: 500px;
 	}
   }
   
