@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="PT-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/style.css">
-    <script src="https://kit.fontawesome.com/97cb05592e.js" crossorigin="anonymous"></script>
-    
-    <title>Aliston Santos</title>
+    <link rel="stylesheet" href="./estilos/carrosel.css" />
+    <title>Teste de Carrosel</title>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <a href="carreira.html" class="btn">Car</a>
-            <a href="#educacao" class="btn">Edu</a>
-            <a href="#projetos" class="btn">Pro</a>
-        </div>
-        <div class="card">
-            <img src="imagens/uber_99.png" alt="perfil">
-            <h2>Uber / 99</h2>
-            <p>Motorista de Aplicativo</p>
-        </div>
-            <div class="card">
-            <img src="imagens/sequoia.jpg" alt="perfil">
-            <h2>Sequoia Logistica</h2>
-            <p>Analista Logistico</p>
-        </div>
-        <div class="card">
-            <img src="imagens/siurb.jfif" alt="perfil">
-            <h2>Pref. de São Paulo</h2>
-            <p>Encarregado Financeiro</p>
-        </div>
-        <div class="card">
-            <img src="imagens/rappi.jfif" alt="perfil">
-            <h2>Rappi Brasil Ltda</h2>
-            <p>Shopper</p>
-        </div>
-        <div class="card">
-            <img src="imagens/mini_mercado_villa.jpg" alt="perfil">
-            <h2>Mini Mercado Villa</h2>
-            <p>Repositor de Mercadorias</p>
-        </div>
-    </div>    
+    
+    
+<h1>Carreira</h1>
+
+<div class="container">
+  <div class="card-carousel">
+    <div class="card" id="1">
+      <div class="image-container"></div>
+      <h3>SIURB - PMSP</h3>
+      <h4>Encarregado de Equipe(Financeiro)</h4>
+      <p>Periodo: 05/ 2013 à 10/ 2019</p>  
+    </div>
+    <div class="card" id="2">
+      <div class="image-container"></div>
+      <h3>Mini Mercado Villa</h3>
+      <h4>Repositor</h4>
+      <p>Periodo: 10/ 2010 à 05/ 2013</p>  
+    </div>
+    <div class="card" id="3">
+      <div class="image-container"></div>
+      <h3>Uber / 99</h3>
+      <h4>Motorista de Aplicativo</h4>
+      <p>Periodo: 10/ 2021 à Atualmente</p>  
+    </div>  
+    <div class="card" id="4">
+      <div class="image-container"></div>
+      <h3>Sequoia Log. e Trans. S.A.</h3>
+      <h4>Analista Logistico</h4>
+      <p>Periodo: 11/ 2020 à 10/2021</p>
+      <p class="explicacao">Atuei com criação relatórios gerenciais, montagem de material para reuniões semanais,
+        apresentava as reuniões do time ao qual fiz parte entre outros.
+      </p>
+    </div>
+    <div class="card" id="5">
+      <div class="image-container"></div>
+      <h3>Rappi Brasil</h3>
+      <h4>Shopper</h4>
+      <p>Periodo: 06/ 2019 à 10/2019</p>
+    </div>
+  </div>
+  <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+</div>
+<!-- 
+<h2>Check out <a target="_blank" href="https://codepen.io/WillyW/pen/RwRrvjv">Circle Carousel</a></h2> -->
+
+<script src="./js/carrosel.js"></script>
+
+
 </body>
 </html>
