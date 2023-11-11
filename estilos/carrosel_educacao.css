@@ -151,3 +151,11 @@
 	margin-top: 2em;
 	text-align: justify;
   }
+
+  @media screen and (max-width: 400px) {
+    .card-carousel {
+		--card-width: 80%;
+		--card-max-width: 350px;
+		--card-height: 450px;
+	}
+}

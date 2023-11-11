@@ -37,3 +37,9 @@
     float: right;
     background-color: rgb(24, 139, 233);
 }
+
+@media screen and (max-width: 400px) {
+    #menu-h ul li a {
+        padding: 10px 5px 10px 5px;
+    }
+}
