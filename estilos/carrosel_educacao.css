@@ -155,7 +155,12 @@
   @media screen and (max-width: 400px) {
     .card-carousel {
 		--card-width: 80%;
-		--card-max-width: 350px;
+		--card-max-width: 280px;
 		--card-height: 450px;
+		--carousel-min-width: 600px;
+	}
+
+	.image-container {
+		padding: 4em;
 	}
 }
