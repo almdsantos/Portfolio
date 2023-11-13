@@ -4,18 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilo_conteudo.css">
+    <link rel="stylesheet" href="./estilos/carrosel_projetos.css" />
+    <link rel="stylesheet" href="./estilos/menu_superior.css" />
     <title>Aliston Santos</title>
 </head>
 <body>
-    <h1>Projetos</h1>
-    <h2>KidFlix</h2>
-    <img src="imagens/inicio.png">
-    <img src="imagens/principal.png">
-    <h2>Player de Audio HTML/ CSS e Javascript</h2>
-    <img src="imagens/imagem não encontrada.png">
-    <img src="imagens/imagem não encontrada.png">
-    <img src="imagens/imagem não encontrada.png">
-    <img src="imagens/imagem não encontrada.png">
+    <nav id="menu-h">
+        <ul>
+          <li><a href="index.html">Sobre Mim</a></li>
+          <li><a href="carreira.html">Carreira</a></li>
+          <li><a href="educacao.html">Educação</a></li>
+          <li><a>PROJETOS</a></li>
+        </ul>
+      </nav>
+
+      
+<div class="container">
+    <div class="card-carousel">
+      <div class="card" id="1">
+        <div class="image-container"></div>
+        <h3>Construção</h3>
+        <p class="explicacao"></p>
+      </div>
+      <div class="card" id="2">
+        <div class="image-container"></div>
+        <h3>Construção</h3>
+        <p class="explicacao"></p>
+      </div>
+      <div class="card" id="3">
+        <div class="image-container"></div>
+        <h3>KidFlix</h3>
+        <p class="explicacao">
+          Aplicativo de video com foco no publico infantil, a ideia é ter algo filtrado sem anuncio para
+          acabar com a preocupação dos pais quanto ao conteudo assistido pelos filhos
+        </p>
+      </div>  
+      <div class="card" id="4">
+        <div class="image-container"></div>
+        <h3>Construção</h3>
+        <p class="explicacao"></p>
+      </div>
+      <div class="card" id="5">
+        <div class="image-container"></div>
+        <h3>Construção</h3>
+        <p class="explicacao"></p>
+      </div>
+    </div>
+    <a href="#" class="visuallyhidden card-controller">Carousel controller</a>
+  </div>
+  <!-- 
+  <h2>Check out <a target="_blank" href="https://codepen.io/WillyW/pen/RwRrvjv">Circle Carousel</a></h2> -->
+  
+  <script src="./js/carrosel.js"></script>
 </body>
 </html>
