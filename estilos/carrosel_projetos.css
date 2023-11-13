@@ -101,8 +101,6 @@
 	background-image: url("../imagens/em_construcao.jpg");
   }
   
-  
-  
   .image-container {
 	width: 8em;
 	height: 8em;
@@ -153,6 +151,13 @@
 	text-align: justify;
   }
 
+  .botao {
+	margin-top: 20px;
+	width: 120px;
+	height: 40px;
+	border-radius: 15px;
+  }
+
   @media screen and (max-width: 400px) {
     .card-carousel {
 		--card-width: 80%;
@@ -164,4 +169,10 @@
 	.image-container {
 		padding: 4em;
 	}
+	.botao {
+		margin-top: 15px;
+		width: 100px;
+		height: 25px;
+		border-radius: 15px;
+	  }
 }
