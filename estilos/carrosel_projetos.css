@@ -6,7 +6,10 @@
   
   html {
 	font-family: system-ui;
-	background-image: url("../imagens/everest.jpeg")
+	background-image: url("../imagens/everest.jpeg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .visuallyhidden {

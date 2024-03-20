@@ -6,7 +6,10 @@
   
   html {
 	font-family: system-ui;
-	background-image: url("../imagens/everest.jpeg")
+	background-image: url("../imagens/everest.jpeg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
   
   .visuallyhidden {
@@ -84,11 +87,11 @@
   
   
   .card:nth-of-type(1) .image-container {
-	background-image: url("../imagens/em_construcao.jpg");
+	background-image: url("../imagens/node.png");
   }
    
   .card:nth-of-type(2) .image-container {
-	background-image: url("../imagens/em_construcao.jpg");
+	background-image: url("../imagens/php.png");
   }
   
   .card:nth-of-type(3) .image-container {
@@ -98,7 +101,7 @@
 	background-image: url("../imagens/anhembi-morumbi.png")
   }
   .card:nth-of-type(5) .image-container {
-	background-image: url("../imagens/em_construcao.jpg");
+	background-image: url("../imagens/react-next.jpg");
   }
   
   
