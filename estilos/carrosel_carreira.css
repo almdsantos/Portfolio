@@ -87,7 +87,7 @@
   
   
   .card:nth-of-type(1) .image-container {
-	background-image: url("../imagens/siurb.jfif");
+	background-image: url("../imagens/rappi.jfif");
   }
    
   .card:nth-of-type(2) .image-container {
@@ -101,9 +101,8 @@
 	background-image: url("../imagens/sequoia.jpg")
   }
   .card:nth-of-type(5) .image-container {
-	background-image: url("../imagens/rappi.jfif")
+	background-image: url("../imagens/siurb.jfif")
   }
-  
   
   
   .image-container {
